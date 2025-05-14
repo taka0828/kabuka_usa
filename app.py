@@ -1,5 +1,6 @@
 
 #!pip install streamlit
+pip install -r requirements.txt
 import pandas as pd
 import yfinance as yf
 import altair as alt
