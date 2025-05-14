@@ -52,7 +52,7 @@ try:
         'google': 'GOOGL',
         'microsoft': 'MSFT',
         'netflix': 'NFLX',
-        'amazon': 'AMZN'
+        'amazon': 'AMZN',
         'nvdia': 'NVDA'
         
     }
