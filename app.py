@@ -53,6 +53,8 @@ try:
         'microsoft': 'MSFT',
         'netflix': 'NFLX',
         'amazon': 'AMZN'
+        'nvdia': 'NVDA'
+        
     }
     df = get_data(days, tickers)
     companies = st.multiselect(
