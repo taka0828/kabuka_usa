@@ -48,7 +48,7 @@ try:
 
     tickers = {
         'apple': 'AAPL',
-        'facebook': 'FB',
+        'meta': 'META',
         'google': 'GOOGL',
         'microsoft': 'MSFT',
         'netflix': 'NFLX',
@@ -58,7 +58,7 @@ try:
     companies = st.multiselect(
         '会社名を選択してください。',
         list(df.index),
-        ['google', 'amazon', 'facebook', 'apple']
+        ['google', 'amazon', 'meta', 'apple']
     )
 
     if not companies:
